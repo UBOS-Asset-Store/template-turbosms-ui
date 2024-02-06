@@ -1,0 +1,24 @@
+{
+    "_id": "65c22179f4797d7fa4717e57",
+    "name": "Org",
+    "organizationSettings": [],
+    "plugins": [
+        {
+            "pluginId": "API",
+            "status": "FREE",
+            "deleted": false,
+            "policies": []
+        },
+        {
+            "pluginId": "JS",
+            "status": "FREE",
+            "deleted": false,
+            "policies": []
+        }
+    ],
+    "slug": "Org",
+    "userRoles": [],
+    "createdAt": "2024-02-06T12:09:29.503Z",
+    "deleted": false,
+    "policies": []
+}

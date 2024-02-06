@@ -1,0 +1,64 @@
+[
+    {
+        "_id": "65c22179f4797d7fa4717e59",
+        "applicationId": "turbosmsui",
+        "slug": "home",
+        "Page": {
+            "name": "home",
+            "layouts": [
+                {
+                    "_id": "65c22179f4797d7fa4717e5d",
+                    "viewMode": false,
+                    "dsl": {
+                        "widgetName": "MainContainer",
+                        "backgroundColor": "none",
+                        "rightColumn": 966,
+                        "snapColumns": 64,
+                        "detachFromLayout": true,
+                        "widgetId": "0",
+                        "topRow": 0,
+                        "bottomRow": 320,
+                        "containerStyle": "none",
+                        "snapRows": 125,
+                        "parentRowSpace": 1,
+                        "type": "CANVAS_WIDGET",
+                        "canExtend": true,
+                        "version": 57,
+                        "minHeight": 1292,
+                        "parentColumnSpace": 1,
+                        "dynamicBindingPathList": [],
+                        "leftColumn": 0,
+                        "children": [],
+                        "dynamicTriggerPathList": []
+                    },
+                    "widgetNames": [
+                        "MainContainer"
+                    ],
+                    "deleted": false,
+                    "layoutOnLoadActions": [
+                        []
+                    ],
+                    "layoutOnCloseActions": [
+                        []
+                    ],
+                    "policies": []
+                }
+            ]
+        },
+        "createdAt": "2024-02-06T12:09:29.502Z",
+        "updatedAt": "2024-02-06T12:09:29.502Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:pages",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:pages",
+                "groups": [],
+                "users": []
+            }
+        ]
+    }
+]

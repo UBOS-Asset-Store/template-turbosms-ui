@@ -1,0 +1,48 @@
+{
+    "_id": "65c22179f4797d7fa4717e58",
+    "name": "turbosmsui",
+    "slug": "turbosmsui",
+    "organizationId": "Org",
+    "isPublic": false,
+    "isMenu": false,
+    "isShowPlatformTag": true,
+    "createdAt": "2024-02-06T12:09:29.502Z",
+    "updatedAt": "2024-02-06T12:09:29.502Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "home",
+            "isDefault": true
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-Asset-Store/template-turbosms-ui",
+        "defaultApplicationId": "turbosmsui",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-Asset-Store/template-turbosms-ui.git",
+        "repoName": "template-turbosms-ui"
+    }
+}
