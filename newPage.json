@@ -1,52 +1,501 @@
 [
     {
-        "_id": "65c22179f4797d7fa4717e59",
+        "_id": "65c22b94f4797d7fa4717e5e",
         "applicationId": "turbosmsui",
-        "slug": "home",
+        "slug": "Шлюз API",
         "Page": {
-            "name": "home",
+            "name": "Шлюз API",
             "layouts": [
                 {
-                    "_id": "65c22179f4797d7fa4717e5d",
+                    "_id": "65c22b94f4797d7fa4717e5f",
                     "viewMode": false,
                     "dsl": {
                         "widgetName": "MainContainer",
                         "backgroundColor": "none",
-                        "rightColumn": 966,
+                        "rightColumn": 1224,
                         "snapColumns": 64,
-                        "detachFromLayout": true,
                         "widgetId": "0",
                         "topRow": 0,
-                        "bottomRow": 320,
-                        "containerStyle": "none",
-                        "snapRows": 125,
+                        "bottomRow": 990,
                         "parentRowSpace": 1,
                         "type": "CANVAS_WIDGET",
-                        "canExtend": true,
-                        "version": 57,
-                        "minHeight": 1292,
-                        "parentColumnSpace": 1,
+                        "detachFromLayout": true,
+                        "minHeight": 870,
                         "dynamicBindingPathList": [],
+                        "parentColumnSpace": 1,
+                        "leftColumn": 0,
+                        "children": [
+                            {
+                                "isVisible": true,
+                                "backgroundColor": "#e6e5e5",
+                                "widgetName": "Container1",
+                                "containerStyle": "card",
+                                "borderColor": "transparent",
+                                "borderWidth": "0",
+                                "borderRadius": "0",
+                                "boxShadow": "NONE",
+                                "animateLoading": true,
+                                "children": [
+                                    {
+                                        "isVisible": true,
+                                        "widgetName": "Canvas3",
+                                        "version": 1,
+                                        "detachFromLayout": true,
+                                        "type": "CANVAS_WIDGET",
+                                        "hideCard": true,
+                                        "displayName": "Canvas",
+                                        "key": "7o26xldsuh",
+                                        "containerStyle": "none",
+                                        "canExtend": false,
+                                        "children": [
+                                            {
+                                                "isVisible": true,
+                                                "text": "Налаштування інтеграції з TurboSms",
+                                                "fontSize": "HEADING1",
+                                                "fontStyle": "BOLD",
+                                                "textAlign": "LEFT",
+                                                "textColor": "#231F20",
+                                                "truncateButtonColor": "#FFC13D",
+                                                "widgetName": "Text1",
+                                                "shouldTruncate": false,
+                                                "overflow": "NONE",
+                                                "version": 1,
+                                                "animateLoading": true,
+                                                "type": "TEXT_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Text",
+                                                "key": "39dv3fwedz",
+                                                "iconSVG": "/static/media/icon.97c59b52.svg",
+                                                "widgetId": "w4gmpyyapj",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.42529296875,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 0,
+                                                "bottomRow": 7,
+                                                "parentId": "x2dxn6kg1f",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": []
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "label": "Введіть поточний токен HTTP API авторизації",
+                                                "labelPosition": "Top",
+                                                "labelAlignment": "left",
+                                                "labelWidth": 5,
+                                                "widgetName": "Input1",
+                                                "version": 2,
+                                                "defaultText": "{{getToken.data ??\"\"}}",
+                                                "iconAlign": "left",
+                                                "autoFocus": false,
+                                                "labelStyle": "",
+                                                "resetOnSubmit": true,
+                                                "isRequired": false,
+                                                "isDisabled": false,
+                                                "animateLoading": true,
+                                                "classStyle": "",
+                                                "inputType": "TEXT",
+                                                "buttonPosition": "right",
+                                                "type": "INPUT_WIDGET_V2",
+                                                "hideCard": false,
+                                                "displayName": "Input",
+                                                "key": "9o54x4gd3v",
+                                                "iconSVG": "/static/media/icon.9f505595.svg",
+                                                "widgetId": "8oqbip02by",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.82275390625,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 8,
+                                                "bottomRow": 17,
+                                                "parentId": "x2dxn6kg1f",
+                                                "dynamicBindingPathList": [
+                                                    {
+                                                        "key": "defaultText"
+                                                    }
+                                                ],
+                                                "dynamicTriggerPathList": [],
+                                                "labelTextSize": "HEADING2",
+                                                "placeholderText": "81e9ce01fda9aff1880bb919396b3e************"
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "animateLoading": true,
+                                                "text": "Зберегти",
+                                                "buttonColor": "#07b5fb",
+                                                "buttonVariant": "PRIMARY",
+                                                "placement": "CENTER",
+                                                "widgetName": "Button1",
+                                                "isDisabled": false,
+                                                "isDefaultClickDisabled": true,
+                                                "recaptchaType": "V3",
+                                                "version": 1,
+                                                "classStyle": "",
+                                                "type": "BUTTON_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Button",
+                                                "key": "zegda68b7u",
+                                                "iconSVG": "/static/media/icon.cca02633.svg",
+                                                "widgetId": "becou3v0uv",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 9.82275390625,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 22,
+                                                "topRow": 18,
+                                                "bottomRow": 23,
+                                                "parentId": "x2dxn6kg1f",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": [
+                                                    {
+                                                        "key": "onClick"
+                                                    }
+                                                ],
+                                                "iconName": "add-to-folder",
+                                                "iconAlign": "left",
+                                                "borderRadius": "ROUNDED",
+                                                "boxShadow": "VARIANT2",
+                                                "onClick": "{{saveToken.run(() => showAlert('\"Токен успішно збережено\"','success'), () => {})}}"
+                                            }
+                                        ],
+                                        "minHeight": 400,
+                                        "widgetId": "x2dxn6kg1f",
+                                        "renderMode": "CANVAS",
+                                        "isLoading": false,
+                                        "parentColumnSpace": 1,
+                                        "parentRowSpace": 1,
+                                        "leftColumn": 0,
+                                        "rightColumn": 305.25,
+                                        "topRow": 0,
+                                        "bottomRow": 390,
+                                        "parentId": "fnfba8xayu"
+                                    }
+                                ],
+                                "version": 1,
+                                "classStyle": "",
+                                "type": "CONTAINER_WIDGET",
+                                "hideCard": false,
+                                "displayName": "Container",
+                                "key": "bzz6zjvbz7",
+                                "iconSVG": "/static/media/icon.1977dca3.svg",
+                                "isCanvas": true,
+                                "widgetId": "fnfba8xayu",
+                                "renderMode": "CANVAS",
+                                "isLoading": false,
+                                "parentColumnSpace": 12.71875,
+                                "parentRowSpace": 10,
+                                "leftColumn": 13,
+                                "rightColumn": 64,
+                                "topRow": 9,
+                                "bottomRow": 97,
+                                "parentId": "0",
+                                "dynamicBindingPathList": [],
+                                "dynamicTriggerPathList": []
+                            }
+                        ],
+                        "snapRows": 86,
+                        "containerStyle": "none",
+                        "canExtend": true,
+                        "version": 57
+                    },
+                    "widgetNames": [
+                        "MainContainer",
+                        "Container1",
+                        "Canvas3",
+                        "Text1",
+                        "Input1",
+                        "Button1"
+                    ],
+                    "deleted": false,
+                    "policies": [],
+                    "layoutOnLoadActions": [
+                        [
+                            {
+                                "_id": "65c252b9f4797d7fa4717e67",
+                                "id": "65c252b9f4797d7fa4717e67",
+                                "confirmBeforeExecute": false,
+                                "name": "getBalance",
+                                "pluginType": "API",
+                                "jsonPathKeys": [],
+                                "timeoutInMillisecond": 10000
+                            },
+                            {
+                                "_id": "65c25a85f4797d7fa4717e69",
+                                "id": "65c25a85f4797d7fa4717e69",
+                                "confirmBeforeExecute": false,
+                                "name": "getToken",
+                                "pluginType": "API",
+                                "jsonPathKeys": [],
+                                "timeoutInMillisecond": 10000
+                            }
+                        ]
+                    ],
+                    "layoutOnCloseActions": [
+                        []
+                    ]
+                }
+            ]
+        },
+        "createdAt": "2024-02-06T12:52:36.023Z",
+        "updatedAt": "2024-02-06T12:52:36.023Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:pages",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:pages",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "65c22c1ef4797d7fa4717e60",
+        "applicationId": "turbosmsui",
+        "slug": "Розсилка",
+        "Page": {
+            "name": "Розсилка",
+            "layouts": [
+                {
+                    "_id": "65c22c1ef4797d7fa4717e61",
+                    "viewMode": false,
+                    "dsl": {
+                        "widgetName": "MainContainer",
+                        "backgroundColor": "none",
+                        "rightColumn": 1224,
+                        "snapColumns": 64,
+                        "widgetId": "0",
+                        "topRow": 0,
+                        "bottomRow": 860,
+                        "parentRowSpace": 1,
+                        "type": "CANVAS_WIDGET",
+                        "detachFromLayout": true,
+                        "minHeight": 870,
+                        "dynamicBindingPathList": [],
+                        "parentColumnSpace": 1,
                         "leftColumn": 0,
                         "children": [],
-                        "dynamicTriggerPathList": []
+                        "snapRows": 86,
+                        "containerStyle": "none",
+                        "canExtend": true,
+                        "version": 57
                     },
                     "widgetNames": [
                         "MainContainer"
                     ],
                     "deleted": false,
+                    "policies": [],
                     "layoutOnLoadActions": [
                         []
                     ],
                     "layoutOnCloseActions": [
                         []
-                    ],
-                    "policies": []
+                    ]
                 }
             ]
         },
-        "createdAt": "2024-02-06T12:09:29.502Z",
-        "updatedAt": "2024-02-06T12:09:29.502Z",
+        "createdAt": "2024-02-06T12:54:54.388Z",
+        "updatedAt": "2024-02-06T12:54:54.388Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:pages",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:pages",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "65c22c36f4797d7fa4717e62",
+        "applicationId": "turbosmsui",
+        "slug": "Телефонна книга",
+        "Page": {
+            "name": "Телефонна книга",
+            "layouts": [
+                {
+                    "_id": "65c22c36f4797d7fa4717e63",
+                    "viewMode": false,
+                    "dsl": {
+                        "widgetName": "MainContainer",
+                        "backgroundColor": "none",
+                        "rightColumn": 1224,
+                        "snapColumns": 64,
+                        "widgetId": "0",
+                        "topRow": 0,
+                        "bottomRow": 1000,
+                        "parentRowSpace": 1,
+                        "type": "CANVAS_WIDGET",
+                        "detachFromLayout": true,
+                        "minHeight": 870,
+                        "dynamicBindingPathList": [],
+                        "parentColumnSpace": 1,
+                        "leftColumn": 0,
+                        "children": [
+                            {
+                                "isVisible": true,
+                                "backgroundColor": "#e6e5e5",
+                                "widgetName": "Container1",
+                                "containerStyle": "card",
+                                "borderColor": "transparent",
+                                "borderWidth": "0",
+                                "borderRadius": "0",
+                                "boxShadow": "NONE",
+                                "animateLoading": true,
+                                "children": [
+                                    {
+                                        "isVisible": true,
+                                        "widgetName": "Canvas3",
+                                        "version": 1,
+                                        "detachFromLayout": true,
+                                        "type": "CANVAS_WIDGET",
+                                        "hideCard": true,
+                                        "displayName": "Canvas",
+                                        "key": "uzbcs4ysyd",
+                                        "containerStyle": "none",
+                                        "canExtend": false,
+                                        "children": [],
+                                        "minHeight": 400,
+                                        "widgetId": "em9wxr3vdf",
+                                        "renderMode": "CANVAS",
+                                        "isLoading": false,
+                                        "parentColumnSpace": 1,
+                                        "parentRowSpace": 1,
+                                        "leftColumn": 0,
+                                        "rightColumn": 305.25,
+                                        "topRow": 0,
+                                        "bottomRow": 400,
+                                        "parentId": "i4mr7azn1e"
+                                    }
+                                ],
+                                "version": 1,
+                                "classStyle": "",
+                                "type": "CONTAINER_WIDGET",
+                                "hideCard": false,
+                                "displayName": "Container",
+                                "key": "hh99zh489k",
+                                "iconSVG": "/static/media/icon.1977dca3.svg",
+                                "isCanvas": true,
+                                "widgetId": "i4mr7azn1e",
+                                "renderMode": "CANVAS",
+                                "isLoading": false,
+                                "parentColumnSpace": 12.71875,
+                                "parentRowSpace": 10,
+                                "leftColumn": 13,
+                                "rightColumn": 64,
+                                "topRow": 9,
+                                "bottomRow": 98,
+                                "parentId": "0",
+                                "dynamicBindingPathList": [],
+                                "dynamicTriggerPathList": []
+                            }
+                        ],
+                        "snapRows": 86,
+                        "containerStyle": "none",
+                        "canExtend": true,
+                        "version": 57
+                    },
+                    "widgetNames": [
+                        "MainContainer",
+                        "Container1",
+                        "Canvas3"
+                    ],
+                    "deleted": false,
+                    "policies": [],
+                    "layoutOnLoadActions": [
+                        [
+                            {
+                                "_id": "65c2609cf4797d7fa4717e6a",
+                                "id": "65c2609cf4797d7fa4717e6a",
+                                "confirmBeforeExecute": false,
+                                "name": "getBalance",
+                                "pluginType": "API",
+                                "jsonPathKeys": [],
+                                "timeoutInMillisecond": 10000
+                            }
+                        ]
+                    ],
+                    "layoutOnCloseActions": [
+                        []
+                    ]
+                }
+            ]
+        },
+        "createdAt": "2024-02-06T12:55:18.406Z",
+        "updatedAt": "2024-02-06T12:55:18.406Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:pages",
+                "groups": [],
+                "users": []
+            },
+            {
+                "permission": "manage:pages",
+                "groups": [],
+                "users": []
+            }
+        ]
+    },
+    {
+        "_id": "65c22c50f4797d7fa4717e64",
+        "applicationId": "turbosmsui",
+        "slug": "Шаблони",
+        "Page": {
+            "name": "Шаблони",
+            "layouts": [
+                {
+                    "_id": "65c22c50f4797d7fa4717e65",
+                    "viewMode": false,
+                    "dsl": {
+                        "widgetName": "MainContainer",
+                        "backgroundColor": "none",
+                        "rightColumn": 1224,
+                        "snapColumns": 64,
+                        "widgetId": "0",
+                        "topRow": 0,
+                        "bottomRow": 860,
+                        "parentRowSpace": 1,
+                        "type": "CANVAS_WIDGET",
+                        "detachFromLayout": true,
+                        "minHeight": 870,
+                        "dynamicBindingPathList": [],
+                        "parentColumnSpace": 1,
+                        "leftColumn": 0,
+                        "children": [],
+                        "snapRows": 86,
+                        "containerStyle": "none",
+                        "canExtend": true,
+                        "version": 57
+                    },
+                    "widgetNames": [
+                        "MainContainer"
+                    ],
+                    "deleted": false,
+                    "policies": [],
+                    "layoutOnLoadActions": [
+                        []
+                    ],
+                    "layoutOnCloseActions": [
+                        []
+                    ]
+                }
+            ]
+        },
+        "createdAt": "2024-02-06T12:55:44.602Z",
+        "updatedAt": "2024-02-06T12:55:44.602Z",
         "deleted": false,
         "policies": [
             {
