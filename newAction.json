@@ -10,7 +10,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech"
+                    "url": "https://{{main.env.TURBOSMSNR}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -36,15 +36,22 @@
                 ],
                 "path": "/getBalance"
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.",
+                "main.env.TURBOSMSNR"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-02-06T15:39:37.087Z",
-        "updatedAt": "2024-02-07T15:08:53.921Z",
+        "updatedAt": "2024-02-15T16:09:01.243Z",
         "deleted": false,
         "policies": [
             {
@@ -73,41 +80,14 @@
         "Action": {
             "name": "saveToken",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "orgId": "65c1f0de1748361100000001",
-                    "url": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
-                    "product_price": null,
-                    "cpu": null,
-                    "ram": null,
-                    "subscription_plan": "64fad7b7049bf100119b7ba3",
-                    "plan_id": "64fad7b7049bf100119b7ba3",
-                    "subscription_id": null,
-                    "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr"
+                    "url": "https://{{main.env.TURBOSMSNR}}"
                 },
-                "id": "65c24fe923be7d1100000002",
                 "invalids": [],
                 "isValid": true,
-                "name": "turbosmsnr",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "turbosmsnr",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
-                    "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr",
-                    "applicationId": "65c1f0de1748361100000002",
-                    "env": [],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "Шлюз API",
@@ -137,19 +117,23 @@
             "dynamicBindingPathList": [
                 {
                     "key": "body"
+                },
+                {
+                    "key": "datasourceUrl"
                 }
             ],
             "isValid": true,
             "invalids": [],
             "jsonPathKeys": [
-                "JSON.stringify(Input1.)",
-                "JSON.stringify(Input1.text)"
+                "main.env.TURBOSMSN",
+                "JSON.stringify(Input1.text)",
+                "main.env.TURBOSMSNR,JSON.stringify(Input1.text),2024-02-06T16:04:34.316Z,2024-02-15T16:10:13.016Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.TURBOSMSN,2024-02-06T16:04:34.316Z,2024-02-15T16:10:16.201Z,read:actions,manage:actions,execute:actions,DEFAULT_REST_DATASOURCE,https://{{main.env.TURBOSMSNR"
             ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-02-06T16:04:34.316Z",
-        "updatedAt": "2024-02-06T16:05:18.938Z",
+        "updatedAt": "2024-02-15T16:10:17.241Z",
         "deleted": false,
         "policies": [
             {
@@ -178,41 +162,14 @@
         "Action": {
             "name": "getToken",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "orgId": "65c1f0de1748361100000001",
-                    "url": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
-                    "product_price": null,
-                    "cpu": null,
-                    "ram": null,
-                    "subscription_plan": "64fad7b7049bf100119b7ba3",
-                    "plan_id": "64fad7b7049bf100119b7ba3",
-                    "subscription_id": null,
-                    "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr"
+                    "url": "https://{{main.env.TURBOSMSNR}}"
                 },
-                "id": "65c24fe923be7d1100000002",
                 "invalids": [],
                 "isValid": true,
-                "name": "turbosmsnr",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "turbosmsnr",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
-                    "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr",
-                    "applicationId": "65c1f0de1748361100000002",
-                    "env": [],
-                    "status": "ready"
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "Шлюз API",
@@ -233,15 +190,22 @@
                 ],
                 "path": "/getToken"
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.TURBOSMSN",
+                "main.env.TURBOSMSNR"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-02-06T16:12:53.884Z",
-        "updatedAt": "2024-02-07T11:06:35.872Z",
+        "updatedAt": "2024-02-15T16:10:02.501Z",
         "deleted": false,
         "policies": [
             {
@@ -272,7 +236,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech"
+                    "url": "https://{{main.env.TURBOSMSNR}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -298,15 +262,22 @@
                 ],
                 "path": "/getBalance"
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.TURBOSMSN",
+                "main.env.TURBOSMSNR"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-02-06T16:38:52.953Z",
-        "updatedAt": "2024-02-06T16:39:07.287Z",
+        "updatedAt": "2024-02-15T16:10:33.692Z",
         "deleted": false,
         "policies": [
             {
@@ -337,7 +308,7 @@
             "datasource": {
                 "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "url": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech"
+                    "url": "https://{{main.env.TURBOSMSNR}}"
                 },
                 "invalids": [],
                 "isValid": true,
@@ -363,15 +334,22 @@
                 ],
                 "path": "/getBalance"
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.TURBOSMSN",
+                "main.env.TURBOSMSNR"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-02-07T15:08:46.903Z",
-        "updatedAt": "2024-02-07T15:09:15.074Z",
+        "updatedAt": "2024-02-15T16:10:50.686Z",
         "deleted": false,
         "policies": [
             {
@@ -400,60 +378,14 @@
         "Action": {
             "name": "getSendersList",
             "datasource": {
+                "name": "DEFAULT_REST_DATASOURCE",
                 "datasourceConfiguration": {
-                    "orgId": "65c1f0de1748361100000001",
-                    "url": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
-                    "product_price": null,
-                    "cpu": null,
-                    "ram": null,
-                    "subscription_plan": "64fad7b7049bf100119b7ba3",
-                    "plan_id": "64fad7b7049bf100119b7ba3",
-                    "subscription_id": null,
-                    "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr"
+                    "url": "https://{{main.env.TURBOSMSNR}}"
                 },
-                "id": "65c24fe923be7d1100000002",
                 "invalids": [],
                 "isValid": true,
-                "name": "turbosmsnr",
-                "new": false,
-                "type": "api",
-                "organizationId": "Org",
                 "pluginId": "API",
-                "userPermissions": [
-                    "read:service",
-                    "manage:service"
-                ],
-                "settings_data": {
-                    "gitName": "",
-                    "projectName": "turbosmsnr",
-                    "systemType": "latest",
-                    "gitUrl": "",
-                    "gitPassword": "",
-                    "urlNodeRed": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
-                    "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr",
-                    "applicationId": "65c1f0de1748361100000002",
-                    "env": [
-                        {
-                            "name": "TURBOSMSDB-MONGO-HOST-NAME",
-                            "value": "turbosmsmongo-ubos-v9l5m-turbosmsmongo.ubos-v9l5m"
-                        },
-                        {
-                            "name": "TURBOSMSDB-MONGO-DB-NAME",
-                            "value": "turbosmsmongo"
-                        },
-                        {
-                            "name": "TURBOSMSDB-MONGO-HOST-USERNAME",
-                            "value": "ubos1161"
-                        },
-                        {
-                            "name": "TURBOSMSDB-MONGO-HOST-PASSWORD",
-                            "value": "KuUsCJIc"
-                        }
-                    ],
-                    "status": "ready",
-                    "favicon": "",
-                    "title": ""
-                }
+                "messages": []
             },
             "executeOnLoad": false,
             "pageId": "Відправники",
@@ -474,15 +406,22 @@
                 ],
                 "path": "/getSendersList"
             },
-            "dynamicBindingPathList": [],
+            "dynamicBindingPathList": [
+                {
+                    "key": "datasourceUrl"
+                }
+            ],
             "isValid": true,
             "invalids": [],
-            "jsonPathKeys": [],
+            "jsonPathKeys": [
+                "main.env.TURBOSMSN",
+                "main.env.TURBOSMSNR"
+            ],
             "userSetOnLoad": false,
             "confirmBeforeExecute": false
         },
         "createdAt": "2024-02-07T15:09:20.081Z",
-        "updatedAt": "2024-02-07T15:10:43.033Z",
+        "updatedAt": "2024-02-15T16:11:00.295Z",
         "deleted": false,
         "policies": [
             {

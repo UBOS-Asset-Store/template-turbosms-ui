@@ -7,7 +7,7 @@
     "isMenu": false,
     "isShowPlatformTag": false,
     "createdAt": "2024-02-06T12:09:29.502Z",
-    "updatedAt": "2024-02-07T18:09:10.448Z",
+    "updatedAt": "2024-02-15T19:10:18.537Z",
     "deleted": false,
     "pages": [
         {
@@ -478,6 +478,69 @@
                 "label": "GET |  | /getSendersList",
                 "value": {
                     "url": "/getSendersList",
+                    "method": "get",
+                    "datasource": {
+                        "datasourceConfiguration": {
+                            "orgId": "65c1f0de1748361100000001",
+                            "url": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
+                            "product_price": null,
+                            "cpu": null,
+                            "ram": null,
+                            "subscription_plan": "64fad7b7049bf100119b7ba3",
+                            "plan_id": "64fad7b7049bf100119b7ba3",
+                            "subscription_id": null,
+                            "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr"
+                        },
+                        "id": "65c24fe923be7d1100000002",
+                        "invalids": [],
+                        "isValid": true,
+                        "name": "turbosmsnr",
+                        "new": false,
+                        "type": "api",
+                        "organizationId": "Org",
+                        "pluginId": "API",
+                        "userPermissions": [
+                            "read:service",
+                            "manage:service"
+                        ],
+                        "settings_data": {
+                            "gitName": "",
+                            "projectName": "turbosmsnr",
+                            "systemType": "latest",
+                            "gitUrl": "",
+                            "gitPassword": "",
+                            "urlNodeRed": "https://turbosmsnr-65c1f0de1748361100000001.platform.ubos.tech",
+                            "serviceId": "turbosmsnr-ubos-v9l5m-turbosmsnr",
+                            "applicationId": "65c1f0de1748361100000002",
+                            "env": [
+                                {
+                                    "name": "TURBOSMSDB-MONGO-HOST-NAME",
+                                    "value": "turbosmsmongo-ubos-v9l5m-turbosmsmongo.ubos-v9l5m"
+                                },
+                                {
+                                    "name": "TURBOSMSDB-MONGO-DB-NAME",
+                                    "value": "turbosmsmongo"
+                                },
+                                {
+                                    "name": "TURBOSMSDB-MONGO-HOST-USERNAME",
+                                    "value": "ubos1161"
+                                },
+                                {
+                                    "name": "TURBOSMSDB-MONGO-HOST-PASSWORD",
+                                    "value": "KuUsCJIc"
+                                }
+                            ],
+                            "status": "ready",
+                            "favicon": "",
+                            "title": ""
+                        }
+                    }
+                }
+            },
+            {
+                "label": "GET |  | /getResipiensList",
+                "value": {
+                    "url": "/getResipiensList",
                     "method": "get",
                     "datasource": {
                         "datasourceConfiguration": {
